@@ -9,6 +9,7 @@ body {
 }
 
 header,
+nav,
 section,
 footer {
   display: block;
@@ -18,16 +19,9 @@ footer {
   background: #ebebeb;
 }
 
-nav {
-  padding: 10px;
-  margin: 10px;
-  text-align: justify;
-  background: #ebebeb;
-}
-
 #nav {
   display: inline-block;
-
+  padding-right: 100px;
 }
 
 section {
