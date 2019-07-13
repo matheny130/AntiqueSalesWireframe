@@ -26,18 +26,21 @@ footer {
 
 section {
   display: block;
-
-
   height: 267px;
   overflow: hidden;
 }
-
-
 
 article {
   padding: 10px;
   color: #ebebeb;
   background: #777;
+}
+
+#item{
+  height: 150px;
+  width: 100px;
+  display: inline-block;
+  background: #ebebeb;
 }
 
 .clear {
