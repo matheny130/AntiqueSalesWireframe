@@ -19,10 +19,6 @@ footer {
   background: #ebebeb;
 }
 
-nav {
-  padding-left: 10px;
-}
-
 #nav {
   display: inline-block;
   padding-right: 80px;
@@ -45,8 +41,23 @@ article {
   width: 100px;
   display: inline-block;
   background: #ebebeb;
-  padding-top: 25px;
-  margin-top: 25px;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+#price {
+  display: none;
+  width: 50px;
+  height: 20px;
+  padding-top: 60px;
+
+}
+
+.item:hover #price {
+  display: block;
+  margin-top: -75px;
+  margin-bottom: -50px;
+
 }
 
 #bigprice {
