@@ -19,9 +19,13 @@ footer {
   background: #ebebeb;
 }
 
+nav {
+  padding-left: 10px;
+}
+
 #nav {
   display: inline-block;
-  padding-right: 100px;
+  padding-right: 80px;
 }
 
 section {
@@ -36,11 +40,55 @@ article {
   background: #777;
 }
 
-#item{
-  height: 150px;
+.item{
+  height: 125px;
   width: 100px;
   display: inline-block;
   background: #ebebeb;
+  padding-top: 25px;
+  margin-top: 25px;
+}
+
+#bigprice {
+  display: inline-flex;
+  width: 235px;
+  margin-top: -50px;
+  margin-left: -30px;
+
+}
+
+#picture {
+  display: inline-flex;
+
+  height: 125px;
+  padding-left: 250px;
+}
+
+#info {
+  display: inline-flex;
+  padding: 10px;
+  height: 125px;
+  width: 150px;
+  margin-left: -25px;
+}
+
+.details {
+  display: block;
+  background: #777;
+  height: 200px;
+}
+
+#itemspec {
+  display: block;
+
+  width: 650px;
+}
+
+#front {
+  display: inline-flex;
+  background: #ebebeb;
+  margin-top: 90px;
+
 }
 
 .clear {
